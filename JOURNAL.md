@@ -10,8 +10,17 @@ This is my journal of the design and building process of **Custom Devboard - Ril
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/252).
 
 
-## 10/6/2025 - Started a Kicad project!  
+## 10/6/2025 8 PM - Started a Kicad project!  
 
 This is the beginning! I'm brand new to Kicad and even this type of project in general, so I've been playing around in the schematic view to get a feel for it. I've done research on the different tools and how to add components from the library to understand what I'm doing.![Screenshot from 2025-10-06 13-14-08.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODA2LCJwdXIiOiJibG9iX2lkIn19--f693c70c080eadf7dccdd5718fc6fcfb0524a498/Screenshot%20from%202025-10-06%2013-14-08.png)
+  
+
+## 10/6/2025 11 PM - Got to work on the main project now!  
+
+I've now began reading the community guide on how to build this RP2040 devboard, and started with the basics. For now I'm going to follow the guide all they way through, and add to the final product to make it my own.
+
+I Got the very basics put out right now in the schematics editor. We've got the main RP2040 placed in the center, and the decoupling capacitors for both the 3.3v line and 1.1v line.
+
+Next step is to work on USB-c.![Screenshot from 2025-10-06 13-14-08.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODI1LCJwdXIiOiJibG9iX2lkIn19--68d3071647e816b6e662432a8eac2c398804c18c/Screenshot%20from%202025-10-06%2013-14-08.png)
   
 
