@@ -21,7 +21,8 @@ I've now began reading the community guide on how to build this RP2040 devboard,
 
 I Got the very basics put out right now in the schematics editor. We've got the main RP2040 placed in the center, and the decoupling capacitors for both the 3.3v line and 1.1v line.
 
-Next step is to work on USB-c.![Screenshot from 2025-10-06 13-14-08.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODI1LCJwdXIiOiJibG9iX2lkIn19--68d3071647e816b6e662432a8eac2c398804c18c/Screenshot%20from%202025-10-06%2013-14-08.png)
+Next step is to work on USB-c.<img width="1920" height="1080" alt="Screenshot from 2025-10-06 16-42-00" src="https://github.com/user-attachments/assets/0f49f66c-682e-4c03-9abd-dbe9daec8446" />
+
   
 
 ## 10/7/2025 - USB-C & Crystal Oscillator  
