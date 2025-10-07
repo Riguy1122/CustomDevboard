@@ -21,7 +21,15 @@ I've now began reading the community guide on how to build this RP2040 devboard,
 
 I Got the very basics put out right now in the schematics editor. We've got the main RP2040 placed in the center, and the decoupling capacitors for both the 3.3v line and 1.1v line.
 
-Next step is to work on USB-c.<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3fe2fd6f-b39f-4cec-8db9-83cc6c758055" />
+Next step is to work on USB-c.![Screenshot from 2025-10-06 13-14-08.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODI1LCJwdXIiOiJibG9iX2lkIn19--68d3071647e816b6e662432a8eac2c398804c18c/Screenshot%20from%202025-10-06%2013-14-08.png)
+  
+
+## 10/7/2025 - USB-C & Crystal Oscillator  
+
+I've now added the USB-c receptacle, as well as the LDO to lower the voltage from 5V to 3.3V, to not fry the board! After research I went with the MCP1700x-330xxMB over the MCP1700x-330xxTT simply because the MCP1700x-330xxMB can handle a higher thermal load then the xxTT, whether that will be significant enough I'm not sure, but better safe then sorry!
+
+Now moving on to the crystal oscillator, I've also implemented a 12MHz crystal as the guide says, and the next thing to move onto is flash storage.![Screenshot from 2025-10-06 19-04-59.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODMzLCJwdXIiOiJibG9iX2lkIn19--e4de4477fed2540c7d29d3cf3d1aebe2f1c1bfd3/Screenshot%20from%202025-10-06%2019-04-59.png)
+
 
   
 
