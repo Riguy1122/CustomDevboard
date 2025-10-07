@@ -21,11 +21,10 @@ I've now began reading the community guide on how to build this RP2040 devboard,
 
 I Got the very basics put out right now in the schematics editor. We've got the main RP2040 placed in the center, and the decoupling capacitors for both the 3.3v line and 1.1v line.
 
-Next step is to work on USB-c.<img width="1920" height="1080" alt="Screenshot from 2025-10-06 16-42-00" src="https://github.com/user-attachments/assets/0f49f66c-682e-4c03-9abd-dbe9daec8446" />
-
+Next step is to work on USB-c.![Screenshot from 2025-10-06 13-14-08.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODI1LCJwdXIiOiJibG9iX2lkIn19--68d3071647e816b6e662432a8eac2c398804c18c/Screenshot%20from%202025-10-06%2013-14-08.png)
   
 
-## 10/7/2025 - USB-C & Crystal Oscillator  
+## 10/7/2025 2 AM - USB-C & Crystal Oscillator  
 
 I've now added the USB-c receptacle, as well as the LDO to lower the voltage from 5V to 3.3V, to not fry the board! After research I went with the MCP1700x-330xxMB over the MCP1700x-330xxTT simply because the MCP1700x-330xxMB can handle a higher thermal load then the xxTT, whether that will be significant enough I'm not sure, but better safe then sorry!
 
@@ -33,4 +32,10 @@ Now moving on to the crystal oscillator, I've also implemented a 12MHz crystal a
 
 
   
+
+## 10/7/2025 4 AM - Flash Memory, Prep for breakout, and MicroSd!!  
+
+I have connected a flash memory chip and all its QSPI pins! The guide says that the RP2040 Datasheet says if the QSPI SS pin detects a 0 or a GND when booting, BOOTSEL mode so that the device is recognizable to your computer and you can flash your code onto the devboard. So, we implemented a button that allows the SS line to detect GND on boot when held, and subsequently boot into BOOTSEL.
+
+The next thing I've gone ahead and done is placed global tags on the GPIO pins for breakout, except for 10, 11, 12, 12, because I've gone and added a MicroSd slot to the schematic! This is one of the things I'm implementing to put a twist on it and not follow the tutorial exactly.![Screenshot from 2025-10-06 21-12-21.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0LCJwdXIiOiJibG9iX2lkIn19--e44be18eda62f72446fc8fc69593add77fd7b56b/Screenshot%20from%202025-10-06%2021-12-21.png)  
 
