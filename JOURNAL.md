@@ -39,3 +39,10 @@ I have connected a flash memory chip and all its QSPI pins! The guide says that 
 
 The next thing I've gone ahead and done is placed global tags on the GPIO pins for breakout, except for 10, 11, 12, 12, because I've gone and added a MicroSd slot to the schematic! This is one of the things I'm implementing to put a twist on it and not follow the tutorial exactly.![Screenshot from 2025-10-06 21-12-21.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0LCJwdXIiOiJibG9iX2lkIn19--e44be18eda62f72446fc8fc69593add77fd7b56b/Screenshot%20from%202025-10-06%2021-12-21.png)  
 
+## 10/9/2025 - I/O, Subbed Micro SD, GPIO, Foot Print Assignment!  
+
+Now I've layed out the I/o pins, doing one thing differently from the guide. What would have been GPIO pins 18-22, as well as 5, are now GND because those GPIO spots are occupied by the Micro SD card. I had to open up the RP2040 datasheet so I could get the schematics for the micro SD all ready. I had to take a small break so this update came much later then the others, I have also spent quite a long time trying to find a substitute micro SD component because the basic one in kicad was out of stock in JLCPCB entirely.
+
+Now the next step is assigning footprints to everything so I can get ready for designing the PCB!![Screenshot from 2025-10-08 20-31-25.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d1a1786333b3749db33881a5649919aa1a67088d/Screenshot%20from%202025-10-08%2020-31-25.png)
+  
+
